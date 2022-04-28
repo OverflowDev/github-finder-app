@@ -3,6 +3,7 @@ import RepoItem from './RepoItem'
 
 function RepoList({repos} ) {
 
+    // 'Repos' state passed from User.jsx 
   return (
     <div className='rounded-lg shadow-lg card bg-base-100'>
         <div className="card-body">
